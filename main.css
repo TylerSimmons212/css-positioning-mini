@@ -4,10 +4,17 @@ aside {
   background-color: #181618;
   color: white;
   font-size: 12px;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
 }
 
 .logo {
-  width: 150px;
+  width: 70%;
+  position: relative;
+  margin:50px 20px;
 }
 
 h2 {
@@ -15,10 +22,11 @@ h2 {
 }
 
 main {
-  width: 80%;
+  width: 100%;
   min-height: 100vh;
   background-color: #303030;
   color: white;
+  font-family: sans-serif;
 }
 h1 {
   font-size: 18px;
@@ -26,6 +34,58 @@ h1 {
 .products_container {
   width: 90%;
 }
-.product {
-  width: 150px;
+.section{
+  top: 100px;
+}
+.cart_container{
+  display: flex;
+}
+.cart-title{
+  float: left;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.product_count{
+  margin-left: 80px;
+}
+p, li, h2{
+  padding: 5px;
+  color: gray;
+  font-family: sans-serif;
+}
+.cite{
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 620px;
+  margin-left:20px;
+  font-family: sans-serif;
+}
+nav{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.second-class{
+  margin-top: 15px;
+}
+#swag{
+  color: #6DB1E0;
+  font-family: sans-serif;
+}
+.main-title{
+  margin-top: 60px;
+  font-size: 24px;
+  margin-left: 45px;
+}
+.product1{
+  margin-left:50px;
+  margin-bottom:65px;
+}
+.product2{
+  margin-left: 25px;
+  margin-bottom:65px;
+}
+.product3{
+  margin-left: 25px;
+  margin-top: 30px;
 }
